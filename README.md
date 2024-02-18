@@ -1,4 +1,4 @@
-The "Car Catalog" application is a web-based tool that allows users to browse,
+The "RentCar" application is a web-based tool that allows users to browse,
 filter, and save information about cars. The main objective of the application
 is to help users find the perfect car for rental based on their preferences and
 requirements.
