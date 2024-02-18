@@ -9,7 +9,7 @@ const useLocalStorageReducer = (defaultValue, key) => {
   const reduser = (state, action) => {
     switch (action.type) {
       case 'add':
-        return [...state, action.data]
+        return [...state, action.data];
       case 'delete':
         return state.filter(item => item.id !== action.data);
       default:

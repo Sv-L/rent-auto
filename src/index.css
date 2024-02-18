@@ -1,10 +1,10 @@
 :root {
   --transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   --primary-color: #121417;
-  --accent-color: #3470FF;
+  --accent-color: #3470ff;
   --hover-color: #0b44cd;
   --second-color: rgba(18, 20, 23, 0.5);
-  --light-color:rgba(18, 20, 23, 0.1);
+  --light-color: rgba(18, 20, 23, 0.1);
   --second-light-color: rgba(255, 255, 255, 0.8);
   --white-color: #fff;
   --grey-color: #f7f7fb;
@@ -17,7 +17,7 @@
 
 body {
   margin: 0;
-  font-family: "Manrope",sans-serif;
+  font-family: 'Manrope', sans-serif;
   color: var(--primary-color);
   box-sizing: border-box;
   padding: 35px;
@@ -40,14 +40,13 @@ button {
   cursor: pointer;
 }
 
-
 img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-p{
+p {
   padding: 0;
   margin: 0;
 }

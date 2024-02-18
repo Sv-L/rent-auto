@@ -6,7 +6,6 @@ import { IoClose } from 'react-icons/io5';
 const modalRoot = document.getElementById('modal-backdrop');
 
 export const Modal = ({ children, closeModal }) => {
-   
   useEffect(() => {
     function onEsc({ code }) {
       if (code !== 'Escape') {
@@ -19,7 +18,7 @@ export const Modal = ({ children, closeModal }) => {
     const paddingOffSet = window.innerWidth - document.body.offsetWidth + 'px';
 
     document.body.style.paddingRight = paddingOffSet;
-      window.addEventListener('keydown', onEsc);
+    window.addEventListener('keydown', onEsc);
 
     return () => {
       window.removeEventListener('keydown', onEsc);
@@ -38,12 +37,15 @@ export const Modal = ({ children, closeModal }) => {
   return createPortal(
     <ModalStyles onClick={onBackdrop}>
       <div className="modal">
-        <button type="button" className="close-btn" onClick={()=>closeModal(false)}>
+        <button
+          type="button"
+          className="close-btn"
+          onClick={() => closeModal(false)}
+        >
           <IoClose className="close-modal" size={24} />
         </button>
-              {children}
+        {children}
       </div>
-      
     </ModalStyles>,
     modalRoot
   );

@@ -1,1 +1,1 @@
-export {defauld} from './FavoriteList'
+export { defauld } from './FavoriteList';

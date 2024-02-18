@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 export const ContainerStyles = styled.div`
-  outline: 1px solid red;
   margin: 0 auto;
-  padding:0 10px;
- 
+  padding: 0 10px;
+
   @media screen and (max-width: 319px) {
     width: 100%;
   }
