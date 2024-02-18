@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+The "Car Catalog" application is a web-based tool that allows users to browse,
+filter, and save information about cars. The main objective of the application
+is to help users find the perfect car for rental based on their preferences and
+requirements.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Key features and capabilities of the application:
 
-## Available Scripts
+Car Catalog browsing: Users can browse through a list of available cars. Each
+car is presented with a card that includes basic information such as the make,
+model, price, mileage, etc. Users can use filters to narrow down the list of
+cars by make, price, or mileage.
 
-In the project directory, you can run:
+Detailed car information: Users can access detailed information about each car
+by clicking on the "Learn More" button on the car card. A modal window will
+open, displaying extended information about the car, including specifications,
+photos, and additional details.
 
-### `npm start`
+Favorite cars: Users can add cars to their list of favorites. This allows them
+to save cars they like and easily find them later. Users can add or remove a car
+from their favorites list by clicking the corresponding button on the car card.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Responsive design: The application features a responsive design, ensuring that
+it displays correctly on various devices and screen sizes. This provides a
+convenient and accessible user experience regardless of the device being used.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Integration with external API: The application utilizes an external API to
+retrieve data about available cars. This allows for updating and expanding the
+car catalog without manually entering data.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The "Car Catalog" application assists users in finding the best rental car by
+providing an easy and convenient way to check and compare different cars. It
+simplifies the selection process by providing detailed information about each
+car and the ability to save favorite options. This project helps users
+effectively utilize their time and provides them with a user-friendly platform
+to find cars that meet their needs and preferences.
