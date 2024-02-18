@@ -1,4 +1,11 @@
 import { DescriptionWrapStyles } from 'components/List/List.styled';
+import {
+  AccessoriesStyles,
+  DescrStyles,
+  PopUpStyles,
+  PopUpTitleStyles,
+  RentalStyles,
+} from './PopUp.styled';
 
 const { getAdress } = require('helpers/getAdress');
 
@@ -26,11 +33,11 @@ const PopUp = ({
   const formattedMileage = mileage.toLocaleString();
 
   return (
-    <>
+    <PopUpStyles>
       <img src={img} alt="car" />
-      <p>
+      <PopUpTitleStyles>
         {make} <span>{model}</span>, {year}
-      </p>
+      </PopUpTitleStyles>
 
       <DescriptionWrapStyles>
         <p>{addresse.city}</p>
@@ -41,34 +48,43 @@ const PopUp = ({
         <p>Fuel consumption: {fuelConsumption}</p>
         <p>Engine Size: {engineSize}</p>
       </DescriptionWrapStyles>
-      <p>{description}</p>
+      <DescrStyles>{description}</DescrStyles>
       <h3>Accessories and functionalities:</h3>
-      <ul>
+      <AccessoriesStyles>
         {accessories.map(acces => (
           <li key={acces}>
             <p>{acces}</p>
           </li>
         ))}
-      </ul>
+      </AccessoriesStyles>
       <ul>
         {functionalities.map(funct => (
           <li key={funct}>
-            <p>{funct}</p>
+            <DescrStyles>{funct}</DescrStyles>
           </li>
         ))}
       </ul>
       <h3>Rental Conditions:</h3>
-      <ul>
+
+      <RentalStyles>
         {conditions.map(cond => (
           <li key={cond[0]}>
             <p>{cond}</p>
           </li>
         ))}
-      </ul>
-      <p>Miliage: {formattedMileage}</p>
-      <p>Price: {rentalPrice}</p>
+        <li>
+          <p>
+            Miliage:<span>{formattedMileage}</span>{' '}
+          </p>
+        </li>
+        <li>
+          <p>
+            Price:<span>{rentalPrice}</span>{' '}
+          </p>
+        </li>
+      </RentalStyles>
       <a href="tel:+380730000000">Rental Car</a>
-    </>
+    </PopUpStyles>
   );
 };
 export default PopUp;
