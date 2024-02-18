@@ -1,7 +1,4 @@
-import {
-  DescriptionWrapStyles,
-  TitelWrapStyles,
-} from 'components/List/List.styled';
+import { DescriptionWrapStyles } from 'components/List/List.styled';
 
 const { getAdress } = require('helpers/getAdress');
 
@@ -19,7 +16,6 @@ const PopUp = ({
     accessories,
     functionalities,
     rentalPrice,
-    rentalCompany,
     address,
     rentalConditions,
     mileage,
