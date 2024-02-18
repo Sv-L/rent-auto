@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const ListStyles = styled.ul`
+  padding: 40px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,6 +106,12 @@ export const ButtonLearnMoreStyles = styled.div`
   border-radius: 12px;
   width: 274px;
   height: 44px;
+  cursor: pointer;
   background-color: var(--accent-color);
   color: var(--white-color);
+  transition: var(--transition);
+
+  &:hover {
+    background-color: var(--hover-color);
+  }
 `;

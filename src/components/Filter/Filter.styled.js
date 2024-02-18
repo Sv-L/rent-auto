@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FilterStyles = styled.select`
-  margin: 30px auto;
+  margin: 30px auto 0;
   border: none;
   border-radius: 14px;
   padding: 14px;
@@ -14,6 +14,7 @@ export const FilterStyles = styled.select`
   font-weight: 500;
   font-size: 18px;
   line-height: 1.11;
+  cursor: pointer;
 
   option {
     font-weight: 500;

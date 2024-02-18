@@ -13,6 +13,11 @@ export const ButtonLoadMore = styled.button`
   text-decoration-skip-ink: none;
   color: var(--accent-color);
   border: none;
+  transition: var(--transition);
+
+  &:hover {
+    color: var(--hover-color);
+  }
 
   &:disabled {
     opacity: 0;

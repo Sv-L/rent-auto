@@ -3,11 +3,14 @@ import styled from 'styled-components';
 export const HomePageStyles = styled.div`
   h2,
   p {
+    margin-top: 12px;
+    margin-bottom: 12px;
     text-align: center;
   }
 
   li {
     border: 1px solid var(--accent-color);
+    border-radius: 12px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -30,7 +33,7 @@ export const HomePageStyles = styled.div`
   }
 
   a {
-    margin: 0 auto;
+    margin: 20px auto 0;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -40,6 +43,11 @@ export const HomePageStyles = styled.div`
     border-radius: 12px;
     background-color: var(--accent-color);
     color: var(--white-color);
+    transition: var(--transition);
+
+    &:hover {
+      background-color: var(--hover-color);
+    }
   }
 
   @media screen and (max-width: 319px) {

@@ -16,13 +16,13 @@ export const HeaderStyles = styled.div`
     gap: 4px;
 
     & span {
-      color: var(--accent-color);
+      color: var(--second-light-color);
       font-style: italic;
     }
   }
 
   svg {
-    fill: var(--white-color);
+    fill: var(--second-light-color);
     width: 24px;
     height: 24px;
   }
