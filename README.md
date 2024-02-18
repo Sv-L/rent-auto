@@ -27,7 +27,7 @@ Integration with external API: The application utilizes an external API to
 retrieve data about available cars. This allows for updating and expanding the
 car catalog without manually entering data.
 
-The "Car Catalog" application assists users in finding the best rental car by
+The "RentCar" application assists users in finding the best rental car by
 providing an easy and convenient way to check and compare different cars. It
 simplifies the selection process by providing detailed information about each
 car and the ability to save favorite options. This project helps users
