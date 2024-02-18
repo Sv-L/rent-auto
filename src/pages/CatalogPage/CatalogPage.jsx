@@ -10,7 +10,7 @@ import {
   getError,
   getIsLoading,
 } from '../../redux/catalog/selectors';
-import { Button, ButtonLoadMore } from './CatalogPage.styled';
+import { ButtonLoadMore } from './CatalogPage.styled';
 import Filter from 'components/Filter';
 import Error from 'components/Error';
 import Loader from 'components/Loader';

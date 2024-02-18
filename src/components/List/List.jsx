@@ -8,7 +8,6 @@ import PopUp from 'components/PopUp';
 import {
   ButtonFavoriteStyles,
   ButtonLearnMoreStyles,
-  ButtonMoreStyles,
   DescriptionWrapStyles,
   ListStyles,
   TitelWrapStyles,
